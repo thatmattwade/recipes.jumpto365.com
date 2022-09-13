@@ -8,7 +8,7 @@ I like to be able to put precooked artifacts on the clipboard so that they can e
 ## Copy from the Source App
 Microsoft uses a technique where the store what appears to be on the clipboard in a blob store, and only put a reference to that. 
 :::tip 
-You can inspect the content of the clipboard using tools like https://hotcopypaste.com/clipboard-history/
+You can inspect the content of the clipboard using tools like https://freeclipboardviewer.com/
 :::
 
 So here is what I did. I marked an element in the Design Studio and clicked Ctrl+C, then looked into the clipboard viewer and found this.
