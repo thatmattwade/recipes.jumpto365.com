@@ -1,2 +1,0 @@
-# Intro
-![](Elevations.png)

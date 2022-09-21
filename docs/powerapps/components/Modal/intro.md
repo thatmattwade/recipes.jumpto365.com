@@ -1,2 +1,0 @@
-# Intro
-![](Modal.png)

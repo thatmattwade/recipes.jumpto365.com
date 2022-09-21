@@ -1,2 +1,0 @@
-# Intro
-![](Upload.png)
