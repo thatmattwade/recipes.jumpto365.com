@@ -11,5 +11,4 @@ You can make one or multi screen applications, selecting multi screen applicatio
 
 We typically suggest to make "One screen" apps for the main flow and supporting screens for settings etc.
 
-[Canvas App Components](../powerapps/glossary/Canvas-App-Components)
 
