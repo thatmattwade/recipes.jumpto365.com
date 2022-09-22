@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'PowerApps Recipes',
-  tagline: 'This site is devoted to PowerApps DIY with no Premium connectors ',
+  title: 'Power DIY Recipes',
+  tagline: 'This site is devoted to supporting you in developing Power Apps your self',
   url: 'https://recipes.jumpto365.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Recipes by jumpto365',
+        title: 'Power Recipes by jumpto365',
         logo: {
           alt: 'My Site Logo',
           src: 'img/50x50.png',
@@ -69,6 +69,7 @@ const config = {
             position: 'left',
             label: 'PowerApps',
           },
+          {to: '/docs/kitchen', label: 'Kitchen', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/intra365/docs.intra365.com',
@@ -86,6 +87,10 @@ const config = {
               {
                 label: 'Tutorial',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Kitchen',
+                to: '/docs/kitchen',
               },
             ],
           },

@@ -17,8 +17,23 @@ Navigate to https://make.powerapps.com/ (You might be asked to sign in) Eventual
 ![](2022-09-22-08-19-07.png)
 
 ## Create a Blank App
+![](2022-09-22-08-32-40.png)
 
-## Save it
+Select **"Blank app"**
+
+:::warning
+Selecting "Blank app based on Dataverse" or "Blank website" require yuo (and your users) to have additional licenses 
+:::
+
+
+
+![](2022-09-22-08-33-49.png)
+
+Select **"Blank canvas app"**
+## Name the app
+
+The name will need to be unique and will be displayed in the top bar of Office 365 .
+![](2022-09-22-08-36-32.png)
 
 # Other inspiration
 
