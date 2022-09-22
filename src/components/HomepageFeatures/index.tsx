@@ -10,8 +10,8 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Decide your app\'s purpose',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Prepare it well',
+    Svg: require('@site/static/img/step1.svg').default,
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -20,8 +20,8 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Ensure a great User Experience',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Add love',
+    Svg: require('@site/static/img/step2.svg').default,
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -30,8 +30,8 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Involve your users',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Serve it well',
+    Svg: require('@site/static/img/step3.svg').default,
     description: (
       <>
       PowerApps makes it possible to involve your users during the development as ...
