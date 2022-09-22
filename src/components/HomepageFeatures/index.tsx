@@ -4,14 +4,14 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  img: string
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Prepare it well',
-    Svg: require('@site/static/img/step1.svg').default,
+    img: '/img/step1.png',
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Add love',
-    Svg: require('@site/static/img/step2.svg').default,
+    img: '/img/step2.png',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Serve it well',
-    Svg: require('@site/static/img/step3.svg').default,
+    img: '/img/step3.png',
     description: (
       <>
       PowerApps makes it possible to involve your users during the development as ...
@@ -42,11 +42,12 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, img, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img className={styles.featureSvg} src={img}></img>
+        {/* <Svg className={styles.featureSvg} role="img" /> */}
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
