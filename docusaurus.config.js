@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'intra365', // Usually your GitHub org/user name.
-  projectName: 'docs.intra365.com', // Usually your repo name.
+  organizationName: 'jumpto365', // Usually your GitHub org/user name.
+  projectName: 'recipes.jumpto365.com', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/intra365/docs.intra365.com/tree/main',
+            'https://github.com/jumpto365/recipes.jumpto365.com/tree/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/intra365/docs.intra365.com/tree/main',
+          'https://github.com/jumpto365/recipes.jumpto365.com/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -72,7 +72,7 @@ const config = {
           {to: '/docs/kitchen', label: 'Kitchen', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/intra365/docs.intra365.com',
+            href: 'https://github.com/jumpto365/recipes.jumpto365.com',
             label: 'GitHub',
             position: 'right',
           },
