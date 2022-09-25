@@ -1,7 +1,9 @@
 ---
 sidebar_position: 10
 ---
-# Versioning
+# Tracking changes
+
+Versioning
 
 The main driver for using GitHub as the place to store and track is versioning. 
 

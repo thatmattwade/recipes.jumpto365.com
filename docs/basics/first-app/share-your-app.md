@@ -2,7 +2,11 @@
 sidebar_position: 5
 ---
 
-# Share your app
+# Preview & Share your app
+
+## Preview
+
+## Share
 
 App sharing can be made in 2 way, app access which is the default, and shared ownership.
 

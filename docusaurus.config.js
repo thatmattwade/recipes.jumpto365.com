@@ -7,6 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Power DIY Recipes',
+  staticDirectories: [ 'static'],
   tagline: 'This site is devoted to supporting you in developing Power Apps your self',
   url: 'https://recipes.jumpto365.com',
   baseUrl: '/',

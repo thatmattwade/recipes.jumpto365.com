@@ -35,6 +35,16 @@ Select **"Blank canvas app"**
 The name will need to be unique and will be displayed in the top bar of Office 365 .
 ![](2022-09-22-08-36-32.png)
 
-# Other inspiration
+Then click **Create**
 
-https://carldesouza.com/powerapps-part1-create-app-scratch/
+![](2022-09-22-10-23-14.png)
+
+![](2022-09-22-10-24-27.png)
+
+## Save the App
+Hit **Ctrl+S** to save your app.
+
+:::info
+PowerApps will automatically get saved every 2 minutes once you have made an initial save.
+:::
+

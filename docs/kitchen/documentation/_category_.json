@@ -1,0 +1,8 @@
+{
+  "label": "Maintaining Documentation",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Who to edit, track changes and work offline"
+  }
+}
