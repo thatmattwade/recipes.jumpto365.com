@@ -1,6 +1,9 @@
 
-# Architecture
+# High Level Architecture
 
+:::note
+This pages is under construction
+:::
 Micro apps - Make many apps, each solving as few use cases as possible. This give you a better level of control, and lower risk
 
 ## Micro Apps
