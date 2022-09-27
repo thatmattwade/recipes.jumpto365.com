@@ -4,8 +4,10 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-/** @type {import('@docusaurus/types').Config} */
-const config = {
+
+async function createConfig() {
+  const mdxMermaid = await import('mdx-mermaid')
+  return {
   title: 'Power DIY Recipes',
   staticDirectories: [ 'static'],
   tagline: 'This site is devoted to supporting you in developing Power Apps your self',
@@ -31,9 +33,11 @@ const config = {
   presets: [
     [
       'classic',
+      
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          remarkPlugins: [mdxMermaid.default],
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -138,6 +142,6 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-};
+}}
 
-module.exports = config;
+module.exports =createConfig // config;
