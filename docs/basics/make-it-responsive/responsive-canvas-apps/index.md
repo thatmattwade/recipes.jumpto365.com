@@ -1,3 +1,6 @@
+---
+tags: [Review]
+---
 # Responsive PowerApps
 
 :::info [Create responsive layouts in canvas apps (Microsoft Docs)](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/create-responsive-layout)

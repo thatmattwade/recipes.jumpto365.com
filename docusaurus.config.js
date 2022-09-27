@@ -93,6 +93,10 @@ const config = {
                 label: 'Kitchen',
                 to: '/docs/kitchen',
               },
+              {
+                label: 'Pro tips',
+                to: '/docs/pro-tips',
+              },
             ],
           },
           
