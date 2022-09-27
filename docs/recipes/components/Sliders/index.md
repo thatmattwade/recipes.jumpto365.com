@@ -1,2 +1,0 @@
-# Sliders
-![](Sliders.png)

@@ -1,2 +1,0 @@
-# Elevations
-![](Elevations.png)

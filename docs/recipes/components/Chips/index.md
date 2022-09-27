@@ -1,2 +1,0 @@
-# Chips
-![](Chips.png)

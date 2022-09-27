@@ -1,7 +1,9 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
-
+import img1 from "@site/static/img/Step1.png"
+import img2 from "@site/static/img/Step2.png"
+import img3 from "@site/static/img/Step3.png"
 type FeatureItem = {
   title: string;
   img: string
@@ -11,7 +13,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Prepare it well',
-    img: '/img/step1.png',
+    img: img1,
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -21,7 +23,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Add love',
-    img: '/img/step2.png',
+    img: img2,
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -31,7 +33,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Serve it well',
-    img: '/img/step3.png',
+    img: img3,
     description: (
       <>
       PowerApps makes it possible to involve your users during the development as ...

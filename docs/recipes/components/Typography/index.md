@@ -1,2 +1,0 @@
-# Typography
-![](Typography.png)

@@ -1,2 +1,0 @@
-# Toasts
-![](Toasts.png)

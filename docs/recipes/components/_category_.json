@@ -1,7 +1,10 @@
 {
   "label": "Components",
+  
   "position": 2,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "title": "Component overview",
+    "description": "Components is organized in groups based on where they naturally fits in"
   }
 }

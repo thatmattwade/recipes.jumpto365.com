@@ -1,2 +1,0 @@
-# Toggles
-![](Toggles.png)
