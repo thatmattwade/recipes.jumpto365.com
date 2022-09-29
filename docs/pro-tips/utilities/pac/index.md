@@ -1,11 +1,39 @@
-# Microsoft Power Platform CLI ()
+# Download, Unpack and Pack Canvas Apps
 Microsoft Power Platform CLI is a simple, one-stop developer CLI that empowers developers and ISVs to perform various operations in Microsoft Power Platform related to environment lifecycle, authentication, and work with Microsoft Dataverse environments, solution packages, portals, code components, and so on.
+
+:::info 
+This page is mend to be my internal notes, so it is pretty techy. Will not try to explain the details, use it as source for inspiration. And this **has only been tested on Windows**
+:::
 
 ## Preparation
 
 ### Install PAC
 [Install](https://learn.microsoft.com/en-us/power-platform/developer/cli/introduction#power-platform-cli-for-windows)
 
+### Install PowerShell modules
+This will be a one time operation
+
+```powershell title="install.ps1"
+Save-Module -Name Microsoft.PowerApps.Administration.PowerShell -Path $PSScriptRoot 
+Save-Module -Name Microsoft.PowerApps.PowerShell -Path $PSScriptRoot 
+
+```
+
+### Load PowerShell modules
+
+```powershell title="load.ps1"
+Import-Module -Name (join-path $PSScriptRoot  "Microsoft.PowerApps.Administration.PowerShell") -DisableNameChecking
+Import-Module -Name (join-path $PSScriptRoot  "Microsoft.PowerApps.PowerShell") -DisableNameChecking 
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 
+
+
+```
+
+### Sign in to PowerApps
+
+```powershell 
+Add-PowerAppsAccount
+```
 ## Actions
 
 ### List environments

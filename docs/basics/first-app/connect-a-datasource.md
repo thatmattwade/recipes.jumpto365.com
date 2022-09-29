@@ -40,7 +40,7 @@ Select **Connect directly (cloud service)**
 Here is becomes tricky. Once you are presented with the **Connect to SharePoint site** panel, you have 2 options. You can either enter the SharePoint URL or select amongst Recent sites.  The later is super handy, but as the list of recent sites have a build in delay, it will not capture if you just have created a list (which is stored in a site, a site which is created automatically when you create a Microsoft Team) 
 
 In this case I have cheated and waited a day for the list to get updated with the Teams that I created earlier, if you haven't got that patience, check 
-[Pro tip: How to find the SharePoint URL](../../pro-tips/how-to-find-the-SharePoint-URL/index.md)
+[Pro tip: How to find the SharePoint URL](../../pro-tips/connectors/sharepoint/how-to-find-the-SharePoint-URL/index.md)
 :::
 ![](2022-09-23-08-29-21.png)
 

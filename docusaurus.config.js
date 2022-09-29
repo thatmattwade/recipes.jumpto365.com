@@ -98,7 +98,7 @@ async function createConfig() {
                 to: '/docs/kitchen',
               },
               {
-                label: 'Pro tips',
+                label: 'Chefs tips',
                 to: '/docs/pro-tips',
               },
             ],
