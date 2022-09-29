@@ -40,7 +40,7 @@ Select **Blank list**
 Name the list **Demo** 
 
 :::tip Pro tip
-We have a Pro tip for you on the concept of naming conventions. See [Use PascalCasing](../../pro-tips/name-using-pascal-casing)
+We have a Pro tip for you on the concept of naming conventions. See [Use PascalCasing](/docs/pro-tips/governance/policies/naming-convention/name-using-pascal-casing)
 :::
 
 ![](2022-09-22-14-47-08.png)

@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            My first Power App Tutorial - 5min ⏱️
+            Your first Power App Tutorial - 15min ⏱️
           </Link>
         </div>
       </div>

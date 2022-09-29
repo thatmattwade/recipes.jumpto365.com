@@ -1,0 +1,1 @@
+https://global.hitachi-solutions.com/blog/power-platform-governance/

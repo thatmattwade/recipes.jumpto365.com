@@ -12,33 +12,30 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Prepare it well',
+    title: 'DIY Business Solutions ',
     img: img1,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We are a team of "Power Chefs" who have developed a lot of applications which we would love to share with you. But we rater like to teach you how to "Do it yourself"
       </>
     ),
   },
   {
-    title: 'Add love',
+    title: 'Governance that works',
     img: img2,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The more complicated you make it, the harder it will be to control. We suggest that you use an approach of making a 
+        lot of small parts, with a central list acting as a name services and the place to go for discovering new opportunities.
       </>
     ),
   },
   {
-    title: 'Serve it well',
+    title: 'Great User Experience',
     img: img3,
     description: (
       <>
-      PowerApps makes it possible to involve your users during the development as ...
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      Our focus is on learning you to make a great  User Experience. 
       </>
     ),
   },

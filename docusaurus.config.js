@@ -8,9 +8,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 async function createConfig() {
   const mdxMermaid = await import('mdx-mermaid')
   return {
-  title: 'Power DIY Recipes',
+  title: 'Power Recipes',
   staticDirectories: [ 'static'],
-  tagline: 'This site is devoted to supporting you in developing Power Apps your self',
+  tagline: 'Learn what you can do your self without paying for additional licenses',
   url: 'https://recipes.jumpto365.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
