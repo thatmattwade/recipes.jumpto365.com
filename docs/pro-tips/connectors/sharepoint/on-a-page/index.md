@@ -1,3 +1,6 @@
+---
+tags: ["Share Power App"]
+---
 # Publish to a SharePoint page
 
 Once you've published a Power App, you need to share it with your users! Add an app right to a SharePoint page for easy access in your intranet or team site so people can get to it right where they already hang out. Here's how to do it.

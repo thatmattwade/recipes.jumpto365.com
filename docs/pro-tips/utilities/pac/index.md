@@ -270,6 +270,12 @@ Pack from D:\code\powerapps\src\scripts\powerapps\src\Recipe Design Guide --> D:
   source format version: 0.24
 
 ```
+
+### Extract Catalogue to JSON
+```powershell title="listjson.ps1"
+Get-AdminPowerApp  | convertto-json  | Out-File powerapps.json
+```
+
 ## Reference
 
 https://github.com/microsoft/PowerApps-Language-Tooling

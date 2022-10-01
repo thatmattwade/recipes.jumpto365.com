@@ -61,6 +61,7 @@ async function createConfig() {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      
       navbar: {
         title: 'Power Recipes by jumpto365',
         logo: {
@@ -99,8 +100,12 @@ async function createConfig() {
               },
               {
                 label: 'Chefs tips',
-                to: '/docs/pro-tips',
+                to: '/docs/category/governance',
               },
+              // {
+              //   label: 'Hexatown',
+              //   to: '/docs/category/hexatown',
+              // },
             ],
           },
           
@@ -140,6 +145,7 @@ async function createConfig() {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['powershell','xlsx'],
       },
     }),
 }}
