@@ -272,8 +272,44 @@ Pack from D:\code\powerapps\src\scripts\powerapps\src\Recipe Design Guide --> D:
 ```
 
 ### Extract Catalogue to JSON
-```powershell title="listjson.ps1"
-Get-AdminPowerApp  | convertto-json  | Out-File powerapps.json
+```powershell title="extract-catalogue.ps1"
+$apps  = Get-AdminPowerApp 
+
+$x = foreach ($app in $apps) {
+    @{
+        Title       = $app.DisplayName
+        Name = $app.Name
+        CreatedTime = $app.CreatedTime
+        LastModifiedTime= $app.LastModifiedTime
+        EnvironmentName  = $app.EnvironmentName
+        Owner       = $app.Owner | ConvertTo-Json
+        Internal = $app.internal | ConvertTo-Json
+    }
+} 
+
+$x | convertto-json | Out-File "powerapps2.json"
+```
+
+```
+```
+
+### Extract Catalogue and Details to JSON
+```powershell title="extract-catalogue.ps1"
+$apps  = Get-AdminPowerApp 
+
+$x = foreach ($app in $apps) {
+    @{
+        Title       = $app.DisplayName
+        Name = $app.Name
+        CreatedTime = $app.CreatedTime
+        LastModifiedTime= $app.LastModifiedTime
+        EnvironmentName  = $app.EnvironmentName
+        Owner       = $app.Owner | ConvertTo-Json
+        Internal = $app.internal | ConvertTo-Json
+    }
+} 
+
+$x | convertto-json | Out-File "powerapps2.json"
 ```
 
 ## Reference

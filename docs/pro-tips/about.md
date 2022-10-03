@@ -16,7 +16,7 @@ Make the taste just right
 
 
 ### Fx code highlighting
-```xlsx
+```javascript
 //Create a collection
 ClearCollect(myTestScores31a,
 {FullName:"David Jones", Age: 32, TestScore: 78},
