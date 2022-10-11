@@ -11,6 +11,10 @@ A list is like a worksheet in a spreadsheet, a place to store structured informa
 
 In this case I will work under the assumption that you uses Microsoft Teams, and that you are the owner of one. Navigate to the channel where you like to add a List. 
 
+:::info
+You can add a list in any channel on any Team. In this case I have named the Team with the same name as the App. That is not a requirement.
+:::
+
 ![](2022-09-22-14-16-51.png)
 
 **Click** the plus icon to add a new tab

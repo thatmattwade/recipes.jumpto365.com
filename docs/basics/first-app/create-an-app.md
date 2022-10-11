@@ -41,6 +41,19 @@ Then click **Create**
 
 ![](2022-09-22-10-23-14.png)
 
+:::info First Time experience
+
+The first time you use PowerApps you will be asked to specify where you work from. Select country/region then click `Get started` 
+
+![](2022-10-11-08-43-08.png)
+
+You might also get a **Welcome to PowerApps Studio** popup. 
+
+Select ``Dont't show again`` then click `Skip`
+
+![](2022-10-11-09-35-07.png)
+:::
+
 ![](2022-09-22-10-24-27.png)
 
 ## Save the App
