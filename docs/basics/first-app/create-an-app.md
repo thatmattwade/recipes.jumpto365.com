@@ -17,6 +17,7 @@ Navigate to https://make.powerapps.com/ (You might be asked to sign in) Eventual
 
 ![](2022-09-22-08-19-07.png)
 
+![](2022-10-10-15-58-58.png)
 ## Create a Blank App
 ![](2022-09-22-08-32-40.png)
 
