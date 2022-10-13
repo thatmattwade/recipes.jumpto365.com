@@ -63,7 +63,7 @@ async function createConfig() {
     ({
       
       navbar: {
-        title: 'Power Recipes by jumpto365',
+        title: 'Power Recipes (Preview)',
         logo: {
           alt: 'My Site Logo',
           src: 'img/50x50.png',
@@ -140,7 +140,7 @@ async function createConfig() {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} jumpto365, Inc. `,
+        copyright: `Power Recipes by jumpto365 &trade;.  Copyright © ${new Date().getFullYear()} jumpto365, Inc. `,
       },
       prism: {
         theme: lightCodeTheme,
