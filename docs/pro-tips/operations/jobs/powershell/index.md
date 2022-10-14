@@ -42,6 +42,42 @@ Add-NTFSAccess -Path "c:\code" -Account $taskRunnerGroupName -AccessRights ReadA
 
 ```
 
+### Grant Logon as a batch job 
+:::info 
+This is a one-off, so I will not create a script for it.
+
+Found this script which shows you have it can be done in PowerShell https://github.com/zloeber/Powershell/blob/master/Supplemental/Add-UserToLoginAsBatch.ps1
+:::
+
+Open `Local Security Policy` (Start -> Run -> `secpol.msc`)
+
+Select `Local Policies` -> `User Rights Assignment` -> `Log on as a batch job`
+
+![](2022-10-14-09-12-13.png)
+
+Right click and select `Properties` 
+
+![](2022-10-14-09-14-28.png)
+
+Select `Add User or Group` 
+
+![](2022-10-14-09-15-16.png)
+
+Select `Object Types` 
+
+![](2022-10-14-09-18-01.png)
+
+Check `Groups` and select `OK`
+
+![](2022-10-14-09-19-05.png)
+
+
+Add the group `Intra365 Task Runners` and select `OK`
+
+![](2022-10-14-09-20-36.png)
+
+Verify that the group is added, and select `OK`
+
 ## Setup a job
 ### Give the job a short name
 
@@ -173,3 +209,11 @@ From the start menu open the Task Scheduler. You should see a folder called `Tas
 
 ### Log details
 tbd
+
+https://appuals.com/task-scheduler-failed-to-start-error-value-2147943785/#:~:text=Additional%20Data%3A%20Error%20Value%3A%202147943785%E2%80%9D.&text=Therefore%2C%20we%20investigated%20it%20and,require%20performing%20complex%20troubleshooting%20steps.
+
+## Edit local user on Windows Server
+
+Navigate to `Computer Management` and select `Local Users and Groups` and then `Users`. Right click on the user and select `Properties`.
+
+
